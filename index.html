@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Space Explorer</title>
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <canvas id="starCanvas"></canvas>
+        <div class="global-container container-fluid p-5">
+            <div class="flex-column align-items-center justify-content-center w-100 h-100 main-menu" id="main-menu">
+                <h1 class="text-center text-light">Space Explorer</h1>
+                <div class="d-flex align-items-center justify-content-center p-5 w-100">
+                    <button class="btn btn-primary start-button p-5 fs-1" id="start-button" onclick="PlayGame();">Play</button>
+                </div>
+            </div>
+            <div class="flex-column align-items-center justify-content-center w-100 h-100 question-page" id="question-page">
+                <h1 class="text-center text-light mb-md-5 mb-3">Space Explorer</h1>
+                <div class="row d-md-none d-flex flex-wrap flex-row align-items-center justify-content-center w-100 w-md-75">
+                    <button class="btn btn-primary p-5 m-2 fs-1" id="start-button">Play</button>
+                    <button class="btn btn-primary p-5 m-2 fs-1" id="start-button">Play</button>
+                    <button class="btn btn-primary p-5 m-2 fs-1" id="start-button">Play</button>
+                    <button class="btn btn-primary p-5 m-2 fs-1" id="start-button">Play</button>
+                </div>
+                <div class="row d-md-flex d-none flex-wrap flex-row align-items-center justify-content-center w-100 w-md-75">
+                    <div class="col-6 w-50 mb-3">
+                        <button class="btn btn-primary w-100 p-5 fs-1" id="">Play</button>
+                    </div>
+                    <div class="col-6 w-50 mb-3">
+                        <button class="btn btn-primary w-100 p-5 fs-1" id="">Play</button>
+                    </div>
+                    <div class="col-6 w-50 mb-3">
+                        <button class="btn btn-primary w-100 p-5 fs-1" id="">Play</button>
+                    </div>
+                    <div class="col-6 w-50 mb-3">
+                        <button class="btn btn-primary w-100 p-5 fs-1" id="">Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="assets/script.js"></script>
+    </body>
+</html>

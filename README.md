@@ -1,7 +1,3 @@
-Certainly! Here's a professional `README.md` file for your Space Explorer Quiz project:
-
----
-
 # Space Explorer Quiz 🚀
 
 Welcome to the **Space Explorer Quiz**! This is an interactive web-based quiz application that tests your knowledge about space exploration. With a beautiful starry background and engaging questions, you'll feel like you're floating through the cosmos while learning fascinating facts about our universe.

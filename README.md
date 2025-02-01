@@ -1,6 +1,6 @@
-# Space Explorer Quiz 🚀
+# Space Explorer 🚀
 
-Welcome to the **Space Explorer Quiz**! This is an interactive web-based quiz application that tests your knowledge about space exploration. With a beautiful starry background and engaging questions, you'll feel like you're floating through the cosmos while learning fascinating facts about our universe.
+Welcome to the **Space Explorer**! This is an interactive web-based quiz application that tests your knowledge about space exploration. With a beautiful starry background and engaging questions, you'll feel like you're floating through the cosmos while learning fascinating facts about our universe.
 
 ---
 
@@ -20,7 +20,7 @@ Welcome to the **Space Explorer Quiz**! This is an interactive web-based quiz ap
 1. Open the `index.html` file in your browser.
 2. Click the **"Play"** button to start the quiz.
 3. Read each question carefully and select the correct answer from the options provided.
-4. After selecting an answer, the button will change color:
+4. After selecting an answer, the buttons will change color:
    - **Green**: Correct answer
    - **Red**: Incorrect answer
 5. The quiz will automatically advance to the next question after 2 seconds.
@@ -41,7 +41,7 @@ Welcome to the **Space Explorer Quiz**! This is an interactive web-based quiz ap
 ## File Structure 📂
 
 ```
-space-explorer-quiz/
+SpaceExplorer/
 ├── assets/
 │   ├── style.css       # Styles for the quiz
 │   └── script.js       # Quiz logic and star animation
@@ -55,11 +55,11 @@ space-explorer-quiz/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/space-explorer-quiz.git
+   git clone https://github.com/gameplayguy435/SpaceExplorer.git
    ```
 2. Open the project folder:
    ```bash
-   cd space-explorer-quiz
+   cd SpaceExplorer
    ```
 3. Open `index.html` in your browser:
    ```bash
